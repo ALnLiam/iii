@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 
 //https://aistudio.google.com/app/apikey?_gl=1*ho8zh9*_ga*NzYyMDExMzQ2LjE3NDUxMjczNzU.*_ga_P1DBVKWT6V*czE3NDY2NzQ1NTUkbzUkZzEkdDE3NDY2NzQ3MTMkajU4JGwwJGgyMTAxOTkwMjMw
-let API_KEY = 'AIzaSyBK1gSH_zOmjsHmb3Jvbw7XimKts0F8A-A';
+let API_KEY = '';
 let API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let FilterPage = () => {
